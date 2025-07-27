@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freshers & Farewell Events - BCS Department</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="shortcut icon" href="../IMAGES/nck.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="../CSS/party.css">
+</head>
+
+<body>
+  <header>
+    <h1>Freshers & Farewell Celebrations</h1>
+    <p>BCS Department - The New College, Kolhapur</p>
+  </header>
+  <section data-aos="fade-up">
+    <h2>🌟 Freshers' Party 2K25</h2>
+    <p>We welcome our new students with joy and energy! The Freshers' Party is an opportunity for juniors to interact
+      with seniors, express their talents, and get inspired. The event features dance, music, games, and more to create
+      unforgettable memories.</p>
+  </section>
+  <section data-aos="fade-up">
+    <h2>🎓 Farewell Party</h2>
+    <p>The final-year students, the Farewell Party is an emotional and heartwarming send-off. Join us
+      in celebrating the achievements, friendships, and journeys of our seniors with fun performances, award.</p>
+  </section>
+  <section class="form-section" data-aos="fade-up">
+    <h2>📋 Register Your Participation</h2>
+    <form>
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <select name="event">
+        <option value="">-- Select Event --</option>
+        <option value="freshers">Freshers' Party</option>
+        <option value="farewell">Farewell Party</option>
+        <option value="both">None of these</option>
+      </select>
+      <textarea name="message" rows="4" placeholder="Any Comments..."></textarea>
+      <button type="submit" onclick="server();">Submit</button>
+    </form>
+  </section>
+  <footer>
+    © 2025 BCS Department. Designed for Student Events | The New College, Kolhapur
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="../JS/prevent.js"></script>
+  <script>AOS.init({ duration: 1000, offset: 100 });</script>
+  <script>
+     function server(){
+      alert("Server is Temporarily Down By Developer")
+    }
+  </script>
+</body>
+
+</html>
